@@ -1,0 +1,13 @@
+body {
+	background-color: blueviolet;
+}
+.container{
+	height: 200px;
+	widows: 500px;
+	background-image: url(img/pink-flowers.webp);
+}
+p{
+	text-align: center;
+	font-size: 100px;
+	color: #ffff;
+}
