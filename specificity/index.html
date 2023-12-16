@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>specifiticy</title>
+
+
+	<style>
+		p {
+			color: red;
+		}
+
+		p {
+			color: green;
+		}
+
+		#h1 { color:blue }
+		h1 {color: grey;}
+
+	
+	</style>
+</head>
+<body>
+	<!-- pada contoh ini p akan menjadi berwarna hijau karena tertimpa color green -->
+	<p><i>setiap deklarasi css (selector) memiliki <strong>berat</strong> yang berbeda. berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector.</i></p>
+
+
+<!-- pada contoh ini text akan tetap blue karena memiliki nilai yang lebih spesifik -->
+	<h1 id="h1">contoh lagi</h1>
+
+
+
+	<!-- menghitung nilai -->
+<!-- inline > id> class > element -->
+<!--  0       0   0         0 -->
+<!-- jika punya id maka nilainya 0100 -->
+<!--  jika punya class dan nilai maka nilainya 0110-->
+<!-- maka nilai lebih spesifik dan akan ditumakan  -->
+<!-- contoh ul #sarapan li -->
+<!-- maka nilainya 0102 -->
+
+
+</body>
+</html>
