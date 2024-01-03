@@ -26,3 +26,7 @@ color: blue;
 li:nth-child(3n-1) a {
 color: green;
 }
+
+#p1:target {
+	background-color: green;
+}
